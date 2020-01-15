@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1082546712675",
+    "firebase_url": "https://tamagotchi-148b1.firebaseio.com",
+    "project_id": "tamagotchi-148b1",
+    "storage_bucket": "tamagotchi-148b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082546712675:android:2a66c272ae9b4172764856",
+        "android_client_info": {
+          "package_name": "com.example.game0109"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082546712675-3d5esp7mnbcqr7fj38eatq5f2dlggh97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGf38ezPUz75qnak7xSGNIIdFLdxbCZcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082546712675-3d5esp7mnbcqr7fj38eatq5f2dlggh97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

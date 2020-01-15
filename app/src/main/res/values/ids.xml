@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_id" translatable="false">여기에 리더보드 앱 아이디 </string>
+    <string name = "leaderboard_id" translatable="false">여기에 리더보드 아이디 </string>
+
+</resources>

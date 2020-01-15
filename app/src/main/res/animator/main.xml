@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 애니메이션을 순차적으로 진행 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"
+    >
+
+
+    <set android:ordering="together">
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="y"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="600"
+        android:valueTo="400"
+        android:valueType="floatType" />
+
+
+    <objectAnimator
+        android:duration="1500"
+        android:propertyName="x"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="50"
+        android:valueTo="700"
+        android:valueType="floatType" />
+
+    <!-- rotate 애니메이션  -->
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="rotation"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueTo="10"
+        android:pivotX = "50%"
+        android:pivotY = "50%"
+        android:valueType="floatType" />
+
+
+        </set>
+
+</set>
